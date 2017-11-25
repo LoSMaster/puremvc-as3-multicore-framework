@@ -21,31 +21,31 @@
   <modelVersion>4.0.0</modelVersion>
 
   <groupId>org.puremvc</groupId>
-  <artifactId>puremvc-flexjs-as3-multicore-framework</artifactId>
+  <artifactId>puremvc-royale-as3-multicore-framework</artifactId>
   <version>0.1.0</version>
   <packaging>swc</packaging>
 
-  <name>FlexJSPureMVC</name>
+  <name>RoyalePureMVC</name>
   
   <build>
     <sourceDirectory>src</sourceDirectory>
     <plugins>
       <plugin>
-        <groupId>org.apache.flex.flexjs.compiler</groupId>
-        <artifactId>flexjs-maven-plugin</artifactId>
-        <version>0.8.0</version>
+        <groupId>org.apache.royale.compiler</groupId>
+        <artifactId>royale-maven-plugin</artifactId>
+        <version>0.9.0-SNAPSHOT</version>
         <extensions>true</extensions>
         <configuration>
           <includeClasses>
-            <includeClass>FlexJSPureMVC</includeClass>
+            <includeClass>RoyalePureMVC</includeClass>
           </includeClasses>
           <skipExtern>true</skipExtern>
         </configuration>
 		 <dependencies>
             <dependency>
-              <groupId>org.apache.flex.flexjs.compiler</groupId>
+              <groupId>org.apache.royale.compiler</groupId>
               <artifactId>compiler-jx</artifactId>
-              <version>0.8.0</version>
+              <version>0.9.0-SNAPSHOT</version>
             </dependency>
           </dependencies>
       </plugin>
@@ -61,16 +61,16 @@
       <scope>provided</scope>
     </dependency>   
     <dependency>
-      <groupId>org.apache.flex.flexjs.framework</groupId>
+      <groupId>org.apache.royale.framework</groupId>
       <artifactId>Core</artifactId>
-      <version>0.8.0</version>
+      <version>0.9.0-SNAPSHOT</version>
       <type>swc</type>
       <classifier>swf</classifier>
     </dependency>
     <dependency>
-      <groupId>org.apache.flex.flexjs.framework</groupId>
+      <groupId>org.apache.royale.framework</groupId>
       <artifactId>Core</artifactId>
-      <version>0.8.0</version>
+      <version>0.9.0-SNAPSHOT</version>
       <type>swc</type>
       <classifier>js</classifier>
     </dependency>

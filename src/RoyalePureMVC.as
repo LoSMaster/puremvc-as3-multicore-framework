@@ -1,6 +1,6 @@
 package 
 {
-    internal class FlexJSPureMVC
+    internal class RoyalePureMVC
 	{
 		import org.puremvc.as3.multicore.interfaces.ICommand; ICommand;
 		import org.puremvc.as3.multicore.interfaces.IController; IController;
