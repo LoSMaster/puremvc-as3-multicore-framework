@@ -33,7 +33,7 @@
       <plugin>
         <groupId>org.apache.royale.compiler</groupId>
         <artifactId>royale-maven-plugin</artifactId>
-        <version>0.9.5-SNAPSHOT</version>
+        <version>0.9.6-SNAPSHOT</version>
         <extensions>true</extensions>
         <configuration>
           <includeClasses>
@@ -46,7 +46,7 @@
             <dependency>
               <groupId>org.apache.royale.compiler</groupId>
               <artifactId>compiler-jx</artifactId>
-              <version>0.9.5-SNAPSHOT</version>
+              <version>0.9.6-SNAPSHOT</version>
             </dependency>
           </dependencies>
       </plugin>
@@ -64,14 +64,14 @@
     <dependency>
       <groupId>org.apache.royale.framework</groupId>
       <artifactId>Core</artifactId>
-      <version>0.9.5-SNAPSHOT</version>
+      <version>0.9.6-SNAPSHOT</version>
       <type>swc</type>
       <classifier>swf</classifier>
     </dependency>
     <dependency>
       <groupId>org.apache.royale.framework</groupId>
       <artifactId>Core</artifactId>
-      <version>0.9.5-SNAPSHOT</version>
+      <version>0.9.6-SNAPSHOT</version>
       <type>swc</type>
       <classifier>js</classifier>
     </dependency>
